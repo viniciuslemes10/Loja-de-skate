@@ -1,0 +1,94 @@
+.secao-perfil {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.titulo__perfil {
+    margin: 32px 0 16px 0;
+    grid-column: span 4;
+    justify-self: center;
+    font-size: 1.3rem;
+}
+
+.cartao__desenvolvedor {
+    grid-row: 2/span 1;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+    column-gap: 32px;
+}
+
+.cartao_vinicius {
+    grid-column: 3/span 1;
+}
+
+.cartao_victor {
+    grid-column: 2/span 1;
+}
+
+@media screen and (max-width: 480px) {
+    .secao-perfil {
+        display:block;
+       
+    }
+    .cartao-mobile {
+        width: 100%;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: #2C343A;
+        margin: 20px 0;
+    }
+}
+
+.cartao__desevolvedor-conteudo {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+}
+
+.cartao_nome {
+    
+    font-size: 22px;
+}
+
+.cartao_curso {
+    font-size: 22px;
+}
+
+.titulo__perfil-pesquisa {
+    grid-row: 3/ span 1;
+    grid-column: span 4;
+    justify-self: center;
+    font-size: 1.3rem;
+    margin: 16px 0;
+}
+
+.cartao__pesquisa {
+    grid-row: 4/ span 1;
+    width: 100%;
+    height: 75%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+    column-gap: 32px; 
+}
+
+.cartao_vitoria {
+    grid-column: 1/span 1;
+}
+
+.cartao__time-conteudo {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+}
+
+.cartao__imagem-vitoria {
+    height: 60%;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZC | Camisas</title>
+    <link rel="icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>  
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
+        <p class="cabecalho__perfil">João Almeida</p>
+        <button class="cabecalho__noficacao" aria-label="Notificação"><i></i></button>
+    </header>
+    <nav class="menu-lateral menu-lateral--ativo">
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
+        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos ">Picos</a>
+        <a href="camisa.html" class="menu-lateral__link menu-lateral__link--camisas menu-lateral__link--ativo">Camisas</a>
+        <a href="integrantes.html" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+    </nav>
+    <main class="principal">
+        <h2 class="titulo-pagina">Vídeo da Loja</h2>
+        <article class="cartao cartao--destaque destaque-video cartao--destaque_video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WfgTC69ZFwA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile cartao__video-camisa--mobile"></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WfgTC69ZFwA" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen  alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop cartao__video-camisa--desktop"></iframe> 
+            <div class="cartao__conteudo">
+                <p class="cartao__destaque">Loja</p>
+                <h3 class="cartao__titulo">Apresentação da Loja</h3>
+                <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                <p class="cartao__info cartao__info--tempo">1 minutos</p>
+                <p class="cartao__info cartao__info--visualizacao">1.958 visualizações</p>
+                <button class="cartao__botao  cartao__botao--destaque">
+                <a href="https://youtu.be/WfgTC69ZFwA" class="cartao__botao--play"> Assistir agora
+                </a> 
+                </button>
+            </div>
+        </article>
+        <article class="cartao cartao--recentes videos-recentes">
+            <h3 class="cartao__titulo">Vídeos recentes</h3>
+            <a href="https://www.youtube.com/user/HZCRIO" class="cartao__link">Ver todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_1.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo"><a href="https://youtu.be/AHEm8ou7O7c">HZC - Smoke Machine</a></h4>
+                    <p class="cartao__item-perfil">Victor Lemes | Vinicius Lemes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo"><a href="https://youtu.be/sS9i17mo9lw">Mogli Euro Trip</a></h4>
+                    <p class="cartao__item-perfil">Victor Lemes | Vinicius Lemes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_3.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo"><a href="https://youtu.be/ja1O8TUZELg">Top 10 Best Wallrides</a></h4>
+                    <p class="cartao__item-perfil">Victor Lemes | Vinicius Lemes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_4.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo"><a href="https://youtu.be/pm7dF2_WTR8">setor da praça Mauá</a></h4>
+                    <p class="cartao__item-perfil">Victor Lemes | Vinicius Lemes</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_5.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo"><a href="https://youtu.be/kD5TdZ-M2Yo">Muro Quadra Hzc 33 - 2013</a></h4>
+                    <p class="cartao__item-perfil">Victor Lemes | Vinicius Lemes</p>
+                </li>
+            </ul>
+        </article>
+        <section class="secao secao-videos">
+            <h3 class="titulo-secao">Mais vendidas</h3>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_blunt_raglan_cinza_mescla_3214_3757_1_717c092b8fbebc2f1cc6382b0b58ffd6.webp" alt="Vídeo" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo"><a href="https://www.lokalskate.com.br/camisetas/blunt/camiseta-blunt-raglan-cinza-mescla-3214">
+                    CAMISETA BLUNT RAGLAN CINZA MESCLA 3214</a></h3>
+                    <p class="cartao__info cartao__info--dinheiro">100,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/blunt/camiseta-blunt-raglan-cinza-mescla-3214" class="cartao__botao--carrinho" ></a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_diamond_raper_sign_white_3823_1_edfbe1ca0bc6bfc2a22c92c315faf2d0.webp" alt="Vídeo" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo"><a href="https://www.lokalskate.com.br/camisetas/diamond/camiseta-diamond-raper-sign-white?variant_id=14455">
+                        CAMISETA DIAMOND REAPER BRANCA
+                    </a>
+                    </h3>
+                    <p class="cartao__info cartao__info--dinheiro">140,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/diamond/camiseta-diamond-raper-sign-white?variant_id=14455" class="cartao__botao--carrinho">
+                        </a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_lokal_tag_tiffany_2544_1_20201123144522.webp" alt="Vídeo" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/banks/camiseta-lokal-tag-tiffany">
+                            CAMISETA LOKAL TAG TIFFANY</a>
+                    </h3>
+                    <p class="cartao__info cartao__info--dinheiro"> 65,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/banks/camiseta-lokal-tag-tiffany" 
+                        class="cartao__botao--carrinho"></a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_qix_preta_1215_5567_1_265fba490a2d3008710f1d03088a4364.webp"  alt="Vídeo" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/qix/camiseta-qix-preta-1215">
+                            CAMISETA QIX PRETA TAMANHO GG</a></h3>
+                    <p class="cartao__info cartao__info--dinheiro">100,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/qix/camiseta-qix-preta-1215" class="cartao__botao--carrinho">
+                        </a>
+                    </button>
+                </div>
+            </article>
+
+        </section>
+        <section class="secao secao-produtos">
+            <h3 class="titulo-secao">Novidades da Semana</h3>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_grizzly_clownin_cinza_3711_1_fdfba397d9646d65e71ce3805288777d.webp" alt="Produto" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-clownin-cinza">
+                            CAMISETA GRIZZLY CLOWNIN CINZA</a></h3>
+                    <p class="cartao__info cartao__info--dinheiro">140,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-clownin-cinza" class="cartao__botao--carrinho">
+                            </a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_grizzly_mini_og_bear_black_rc04_4303_1_9d426fd8b5b543db9ceade0d11321104.webp" alt="Produto" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-mini-og-bear-black-rc04">
+                            CAMISETA GRIZZLY PRETA - 15 UND
+                        </a>
+                    </h3>
+                    <p class="cartao__info cartao__info--dinheiro">120,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora"> 
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-mini-og-bear-black-rc04" class="cartao__botao--carrinho">
+                        </a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_grizzly_mini_og_bear_pink_3617_1_606d8bbc869ee0231ab1786fa5069d6a.webp" alt="Produto" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-mini-og-bear-pink">
+                            CAMISETA GRIZZLY MINI OG BEAR PINK
+                        </a>
+                    </h3>
+                    <p class="cartao__info cartao__info--dinheiro">100,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-mini-og-bear-pink" class=" cartao__botao--carrinho">
+                        </a>
+                    </button>
+                </div>
+            </article>
+            <article class="cartao">
+                <img src="assets/img-camisas/camiseta_grizzly_og_balloon_purple_1p08_4435_1_88d02f6af01ef352c798b0f69e133be8.webp" alt="Produto" class="cartao__imagem">
+                <div class="cartao__conteudo">
+                    <p class="cartao__perfil">Victor Lemes | Vinicius Lemes</p>
+                    <h3 class="cartao__titulo">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-og-balloon-purple-1p08?variant_id=16559">
+                            GRIZZLY GRANDE ROXA TAMANHO GG
+                        </a>
+                    </h3>
+                    <p class="cartao__info cartao__info--dinheiro">140,00</p>
+                    <button class="cartao__botao" aria-label="Comprar agora">
+                        <a href="https://www.lokalskate.com.br/camisetas/grizzly/camiseta-grizzly-og-balloon-purple-1p08?variant_id=16559" class="cartao__botao--carrinho">
+                        </a>
+                    </button>
+                </div>
+            </article>
+        </section>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
